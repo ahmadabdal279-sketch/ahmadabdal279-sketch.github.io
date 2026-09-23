@@ -26,4 +26,4 @@ Welcome to my official research repository. My work focuses on bridging fundamen
 
 ---
 
-*Contact: your-email@example.com*
+*Contact: ahmadabdal279@gmail.com *
