@@ -3,101 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ahmad Abdal | Theoretical Physics & Mathematics Portfolio</title>
+    <title>Ahmad Abdal | Theoretical Physics & Systems Portfolio</title>
+    <!-- MathJax for rendering equations professionally -->
+    <script src="https://polyfill.io"></script>
+    <script id="MathJax-script" async src="https://jsdelivr.net"></script>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 20px; background: #f4f6f9; color: #333; }
-        header { text-align: center; padding: 40px 0; background: #1a2a3a; color: white; border-radius: 8px; margin-bottom: 30px; }
-        header h1 { margin: 0; font-size: 2.5em; }
-        header p { margin: 10px 0 0; font-size: 1.2em; color: #a0aec0; }
-        .section { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 25px; }
-        h2 { color: #1a2a3a; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; margin-top: 0; }
-        .project { margin-bottom: 25px; padding-bottom: 20px; border-bottom: 1px dashed #e2e8f0; }
-        .project:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
-        .project h3 { margin: 0 0 10px; color: #2b6cb0; }
-        .tags { display: inline-block; background: #ebf8ff; color: #2b6cb0; padding: 2px 8px; border-radius: 4px; font-size: 0.85em; font-weight: bold; margin-bottom: 10px; }
-        .abstract { font-style: italic; color: #4a5568; font-size: 0.95em; background: #f7fafc; padding: 15px; border-left: 4px solid #cbd5e0; border-radius: 0 4px 4px 0; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 900px; margin: 0 auto; padding: 20px; background-color: #f7f9fa; }
+        header { border-bottom: 3px solid #2c3e50; padding-bottom: 20px; margin-bottom: 30px; }
+        h1 { color: #2c3e50; margin-bottom: 5px; }
+        h2 { color: #16a085; border-bottom: 1px solid #ddd; padding-bottom: 5px; }
+        .subtitle { font-size: 1.2rem; color: #7f8c8d; font-style: italic; }
         .links { margin-top: 10px; }
-        .links a { display: inline-block; margin-right: 15px; color: #4c51bf; font-weight: bold; text-decoration: none; }
+        .links a { margin-right: 15px; color: #2980b9; text-decoration: none; font-weight: bold; }
         .links a:hover { text-decoration: underline; }
+        .paper-card { background: white; padding: 25px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        .paper-title { color: #2c3e50; font-size: 1.4rem; margin-top: 0; }
+        .abstract { background: #f9f9f9; padding: 15px; border-left: 4px solid #16a085; font-style: italic; margin: 15px 0; }
+        .framework-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px; }
+        .framework-box { background: #edf2f7; padding: 15px; border-radius: 6px; border-top: 3px solid #2980b9; }
+        .framework-box h4 { margin-top: 0; color: #2c3e50; }
+        .btn { display: inline-block; background: #16a085; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; font-weight: bold; margin-top: 10px; }
+        .btn:hover { background: #117a65; }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Ahmad Abdal</h1>
-    <p>Independent Researcher | Cosmology, Quantum Gravity & Advanced Mathematics</p>
-</header>
-
-<div class="section">
-    <h2>About Me</h2>
-    <p>Independent researcher focused on resolving foundational boundary limits across quantum physics, general relativity, advanced mathematics, and computational complexity systems.</p>
-</div>
-
-<div class="section">
-    <h2>Research Portfolio & Preprints</h2>
-
-    <!-- Project 1 -->
-    <div class="project">
-        <h3>Unified Quantum-Relativity (UQR) & Cosmological Vacuum Resolutions</h3>
-        <span class="tags">Cosmology & Quantum Gravity</span>
-        <p class="abstract">Resolves cosmological singularities by introducing a negative-pressure Quantum Density Tensor (Qµν) governed by an ε² regularizer inside modified field equations, rendering spacetime paths smooth at Planck scales.</p>
+    <header>
+        <h1>Ahmad Abdal</h1>
+        <div class="subtitle">Independent Researcher | Theoretical Physics, Cosmology & Cognitive Architectures</div>
         <div class="links">
-            <a href="https://zenodo.org" target="_blank">🔗 View on Zenodo</a>
-            <a href="https://vixra.org" target="_blank">📄 viXra ID: 18271271</a>
+            <a href="https://github.com" target="_blank">💻 GitHub</a>
+            <!-- https://doi.org/10.5281/zenodo.22719121 -->
+            <a href="https://zenodo.org" target="_blank">📚 Zenodo Profile</a>
+            <a href="mailto:your-email@example.com">✉️ Contact Email</a>
         </div>
-    </div>
+    </header>
 
-    <!-- Project 2 -->
-    <div class="project">
-        <h3>Unified Quantum Vacuum Solution (UQVS)</h3>
-        <span class="tags">Dark Matter Alternative</span>
-        <p class="abstract">Models the cosmic web via localized Quantum Vacuum Polarization Tension, showing that galactic rotation curves are bound by zero-point energy mesh, rendering particle dark matter obsolete.</p>
-        <div class="links">
-            <a href="https://zenodo.org" target="_blank">🔗 View on Zenodo</a>
+    <section>
+        <h2>Research Overview</h2>
+        <p>Welcome to my research repository. My work focuses on bridging fundamental boundary limits across quantum field theories, cosmological singularities, thermodynamic biology, and cognitive architectures through rigorous mathematical modeling.</p>
+    </section>
+
+    <section>
+        <h2>Current Preprints & Publications</h2>
+        <div class="paper-card">
+            <h3 class="paper-title">Advanced Paradigm Integrations: Mathematical Foundations of Cognitive Mapping, Biochemical Abiogenesis, and Cosmological Vacuum Resolutions</h3>
+            <p><strong>Author:</strong> Ahmad Abdal | <em>Published: September 12, 2026</em></p>
+            
+            <div class="abstract">
+                <strong>Abstract:</strong> This comprehensive theoretical framework presents a series of mathematical and conceptual models designed to address fundamental boundary limits across quantum physics, cosmology, biochemistry, and cognitive science. By introducing non-linear information metrics, steady-state catalytic tensors, and quantum density corrections, these frameworks offer mathematically consistent pathways that bridge classical boundaries with quantum scale dynamics.
+            </div>
+
+            <h3>Core Frameworks Inside the Paper</h3>
+            <div class="framework-grid">
+                <div class="framework-box">
+                    <h4>1. Integrated Information Architecture (IIA)</h4>
+                    <p>Formalizing consciousness using a non-linear modified information metric:</p>
+                    $$\Phi_{mod} = \sum_{i,j} \left( \frac{C_{ij} \cdot \chi_q}{\gamma + \delta_k} \right)$$
+                </div>
+                <div class="framework-box">
+                    <h4>2. Biochemical Abiogenesis Pathway (BAP)</h4>
+                    <p>Thermodynamic solution to self-replicating polymer assembly via a localized catalytic tensor ($K_{ab}$):</p>
+                    $$\Delta G_{net} = \Delta G_{polymer} - \int (J_{entropy} \cdot \eta_c) \, dt$$
+                </div>
+                <div class="framework-box">
+                    <h4>3. Unified Quantum-Relativity (UQR)</h4>
+                    <p>Resolving singularities with a negative-pressure Quantum Density Tensor ($Q_{\mu\nu}$):</p>
+                    $$R_{\mu\nu} - \frac{1}{2}Rg_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4}(T_{\mu\nu} + Q_{\mu\nu})$$
+                </div>
+                <div class="framework-box">
+                    <h4>4. Unified Quantum Vacuum Solution (UQVS)</h4>
+                    <p>Modeling the universe as a holographic network driving toward <em>Eternal Harmonic Equilibrium</em>.</p>
+                </div>
+            </div>
+
+            <!-- https://doi.org/10.5281/zenodo.22719121 -->
+            <!-- https://doi.org/10.5281/zenodo.22719667 -->
+            <!-- https://doi.org/10.5281/zenodo.22723444 -->
+            <a href="https://zenodo.org" target="_blank" class="btn">📥 Download Full Paper PDF from Zenodo</a>
         </div>
-    </div>
+    </section>
 
-    <!-- Project 3 -->
-    <div class="project">
-        <h3>Zero-Point Energy (ZPE) Extraction Masterplan</h3>
-        <span class="tags">Quantum Engineering</span>
-        <p class="abstract">An advanced technological blueprint utilizing sub-nanometer Casimir Cavities to induce stable vacuum gradients, achieving a simulated localized flux of 4281.94 W/m³ for clean power grid integration.</p>
-        <div class="links">
-            <a href="https://zenodo.org" target="_blank">🔗 View on Zenodo</a>
-        </div>
-    </div>
-
-    <!-- Project 4 -->
-    <div class="project">
-        <h3>A Formal Resolution of the Riemann Hypothesis</h3>
-        <span class="tags">Pure Mathematics</span>
-        <p class="abstract">Constrains the non-trivial zeros of the Zeta function permanently to the critical line Re(s) = 1/2 by constructing a self-adjoint spectral operator over Global Adele Rings.</p>
-        <div class="links">
-            <a href="https://zenodo.org" target="_blank">🔗 View on Zenodo</a>
-        </div>
-    </div>
-
-    <!-- Project 5 -->
-    <div class="project">
-        <h3>Relativization Barrier Bypass: P vs NP Dilemma</h3>
-        <span class="tags">Computational Complexity</span>
-        <p class="abstract">Bypasses deterministic complexity barriers by introducing the Information Asymmetry Operator (Æ) to map exponential permutation rows onto high-dimensional continuous convex polytopes.</p>
-        <div class="links">
-            <a href="https://zenodo.org" target="_blank">🔗 View on Zenodo</a>
-        </div>
-    </div>
-
-    <!-- Project 6 -->
-    <div class="project">
-        <h3>Polaritonic Moiré-Superlattice Engine (PMSE) Microchip Layout</h3>
-        <span class="tags">Semiconductor Blueprint</span>
-        <p class="abstract">A production-ready microchip specification stacking ABC graphene and hBN to secure room-temperature superconductivity (305 K) at ambient pressure within standard 300mm foundry silicon nodes.</p>
-        <div class="links">
-            <a href="https://zenodo.org" target="_blank">🔗 View on Zenodo</a>
-        </div>
-    </div>
-
-</div>
+    <footer>
+        <p style="text-align: center; color: #7f8c8d; font-size: 0.9rem; margin-top: 50px;">
+            &copy; 2026 Ahmad Abdal. All rights reserved. Powered by GitHub Pages.
+        </p>
+    </footer>
 
 </body>
 </html>
